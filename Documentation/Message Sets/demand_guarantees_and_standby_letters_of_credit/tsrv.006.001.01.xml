@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.006.001.01 tsrv.006.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.006.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgAmdmntAdvc>
+		<AdvsgPty>
+			<Nm>BANK OF AMERICA HONG KONG</Nm>
+			<PstlAdr>
+				<AdrLine>41/F TWO INTERNATIONAL FINANCE CENTRE</AdrLine>
+				<AdrLine>8 FINANCE STREET, CENTRAL,HONG KONG </AdrLine>				
+			</PstlAdr>
+			<Id>
+				<OrgId>
+					<AnyBIC>BOFAHKHXXXX</AnyBIC>
+				</OrgId>
+			</Id>
+		</AdvsgPty>
+		<DtOfAdvc>2013-02-28</DtOfAdvc>
+		<UdrtkgAmdmntAdvcDtls>
+			<UdrtkgAmdmntMsg>
+				<UdrtkgAmdmntDtls>
+					<SeqNb>001</SeqNb>
+					<DtOfIssnc>2013-02-10</DtOfIssnc>
+					<UdrtkgId>
+						<Id>BN346678009381</Id>
+						<Issr>
+							<Nm>BANK OF AMERICA N.A.</Nm>
+								<Id>
+								<OrgId>
+									<AnyBIC>BOFAUS6SGCI</AnyBIC>
+								</OrgId>
+							</Id>
+						</Issr>
+					</UdrtkgId>
+					<AdvsgPty>
+						<Nm>BANK OF AMERICA HONG KONG</Nm>
+							<Id>
+							<OrgId>
+								<AnyBIC>BOFAHKHXXXX</AnyBIC>
+							</OrgId>
+						</Id>
+					</AdvsgPty>
+					<UdrtkgAmtAdjstmnt>
+						<AmtChc>
+							<DcrAmt Ccy="USD">500000.00</DcrAmt>
+						</AmtChc>
+					</UdrtkgAmtAdjstmnt>
+				</UdrtkgAmdmntDtls>
+				</UdrtkgAmdmntMsg>
+			</UdrtkgAmdmntAdvcDtls>
+		</UdrtkgAmdmntAdvc>
+</Document>

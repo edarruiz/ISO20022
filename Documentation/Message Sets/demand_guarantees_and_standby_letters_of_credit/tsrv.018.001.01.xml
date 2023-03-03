@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.018.001.01 tsrv.018.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.018.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TradStsRpt>
+		<TradStsAdvcDtls>
+			<OrgnlMsgDtls>
+				<MsgDefIdr>tsin.008.001.01</MsgDefIdr>
+				<Fr>
+					<OrgId>
+						<Nm>BANK OF AMERICA N.A.</Nm>
+						<Id>
+							<OrgId>
+								<AnyBIC>BOFAUS6SGCI</AnyBIC>
+							</OrgId>
+						</Id>
+					</OrgId>
+				</Fr>
+				<To>
+					<OrgId>
+						<Nm>BANK OF AMERICA HONG KONG</Nm>
+						<Id>
+							<OrgId>
+								<AnyBIC>BOFAHKHXXXX</AnyBIC>
+							</OrgId>
+						</Id>
+					</OrgId>
+				</To>
+				<BizMsgIdr>TSR123456789</BizMsgIdr>
+				<CreDt>2013-05-17T09:30:47Z</CreDt>
+				<CpyDplct>DUPL</CpyDplct>
+			</OrgnlMsgDtls>
+			<Sts>PEND</Sts>
+		</TradStsAdvcDtls>
+	</TradStsRpt>
+</Document>

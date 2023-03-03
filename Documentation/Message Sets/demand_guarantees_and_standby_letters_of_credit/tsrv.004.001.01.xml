@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.004.001.01 tsrv.004.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.004.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgAmdmntReq>
+		<UdrtkgAmdmntReqDtls>
+			<ApplcntReqNb>UT4568879-1</ApplcntReqNb>
+			<UdrtkgId>
+				<Id>BN346678009381</Id>
+				<Issr>
+					<Nm>BANK OF AMERICA N.A.</Nm>
+					<Id>
+						<OrgId>
+							<AnyBIC>BOFAUS6SGCI</AnyBIC>
+						</OrgId>
+					</Id>
+				</Issr>
+				<ApplcntRefNb>UT4568879</ApplcntRefNb>
+			</UdrtkgId>
+			<Applcnt>
+				<Nm>UNITED TECHNOLOGY EXPORTS, INC</Nm>
+				<PstlAdr>
+					<AdrTp>ADDR</AdrTp>
+					<StrtNm>MAIN STREET</StrtNm>
+					<BldgNb>35</BldgNb>
+					<PstCd>CA 94116</PstCd>
+					<TwnNm>SAN FRANCISCO</TwnNm>
+					<Ctry>US</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>UTECUSSF</AnyBIC>
+					</OrgId>
+				</Id>
+				<CtctDtls>
+					<Nm>Daniel Desotto</Nm>
+					<PhneNb>+1-(877)4447983</PhneNb>
+					<EmailAdr>ddesotto@att.com</EmailAdr>
+				</CtctDtls>
+			</Applcnt>
+			<IncrDcrAmt>
+				<AmtChc>
+					<DcrAmt Ccy="USD">500000.00</DcrAmt>
+				</AmtChc>
+			</IncrDcrAmt>
+			<DlvryChanl>
+				<Mtd>TELE</Mtd>
+				<DlvrToPtyTp>
+					<Cd>BENE</Cd>
+				</DlvrToPtyTp>
+			</DlvryChanl>
+		</UdrtkgAmdmntReqDtls>
+	</UdrtkgAmdmntReq>
+</Document>

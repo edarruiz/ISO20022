@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.012.001.01 tsrv.012.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.012.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgTermntnNtfctn>
+		<UdrtkgTermntnNtfctnDtls>
+			<UdrtkgId>
+				<Id>BN346678009381</Id>
+				<Issr>
+					<Nm>BANK OF AMERICA N.A.</Nm>
+					<Id>
+						<OrgId>
+							<AnyBIC>BOFAUS6SGCI</AnyBIC>
+						</OrgId>
+					</Id>
+				</Issr>
+				<ApplcntRefNb>UT4568879</ApplcntRefNb>
+			</UdrtkgId>
+			<TermntnDtls>
+				<FctvDt>2013-10-03</FctvDt>
+				<Rsn>
+					<Cd>BUFI</Cd>
+				</Rsn>
+			</TermntnDtls>
+		</UdrtkgTermntnNtfctnDtls>
+	</UdrtkgTermntnNtfctn>
+</Document>

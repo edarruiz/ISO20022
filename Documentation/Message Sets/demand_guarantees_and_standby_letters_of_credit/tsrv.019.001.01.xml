@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.019.001.01 tsrv.019.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.019.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgStsRpt>
+		<UdrtkgStsRptDtls>
+			<InitgPty>
+				<Nm>BANK OF AMERICA N.A.</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BOFAUS6SGCI</AnyBIC>
+					</OrgId>
+				</Id>
+			</InitgPty>
+			<UdrtkgId>
+				<Id>BN346678009381</Id>
+				<Issr>
+					<Nm>BANK OF AMERICA N.A.</Nm>
+					<Id>
+						<OrgId>
+							<AnyBIC>BOFAUS6SGCI</AnyBIC>
+						</OrgId>
+					</Id>
+				</Issr>
+				<ApplcntRefNb>UT4568879</ApplcntRefNb>
+				<BnfcryRefNb>HKTIL1234567</BnfcryRefNb>
+			</UdrtkgId>
+			<AmdmntSeqNb>001</AmdmntSeqNb>
+			<AdvsgPtyRefNb>BOAHK98765</AdvsgPtyRefNb>
+			<StsCtgy>AMND</StsCtgy>
+			<Sts>ACCP</Sts>
+			<RptdAmt>
+				<Id>BN346678009381</Id>
+				<Tp>REDC</Tp>
+				<Amt Ccy="USD">500000</Amt>
+			</RptdAmt>
+			<OrgnlMsgDtls>
+				<MsgDefIdr>tsrv.004.001.01</MsgDefIdr>
+				<Fr>
+					<OrgId>
+						<Nm>BANK OF AMERICA N.A</Nm>
+							<Id>
+							<OrgId>
+								<AnyBIC>BOFAUS6SGCI</AnyBIC>
+							</OrgId>
+							</Id>
+					</OrgId>
+				</Fr>
+				<To>
+					<OrgId>
+						<Nm>BANK OF AMERICA HONG KONG</Nm>
+						<Id>
+							<OrgId>
+								<AnyBIC>BOFAHKHXXXX</AnyBIC>
+							</OrgId>
+						</Id>
+					</OrgId>
+				</To>
+				<BizMsgIdr>TSR123456789</BizMsgIdr>
+				<CreDt>2013-05-17T09:30:47Z</CreDt>
+			</OrgnlMsgDtls>
+		</UdrtkgStsRptDtls>
+	</UdrtkgStsRpt>
+</Document>

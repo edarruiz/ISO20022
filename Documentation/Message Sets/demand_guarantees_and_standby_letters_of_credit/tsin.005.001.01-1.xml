@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Example using Model Form as a basis to define to define underatking-->
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsin.005.001.01 tsin.005.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsin.005.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgAppl>
+		<UdrtkgApplDtls>
+			<ApplcntRefNb>UT4568879</ApplcntRefNb>
+			<Purp>Payment for delivery and installation of semiconductor fabrication machinery</Purp>
+			<Nm>STBY</Nm>
+			<Tp>
+				<Cd>PAYM</Cd>
+			</Tp>
+			<Oblgr>
+				<Nm>UNITED TECHNOLOGY EXPORTS, INC</Nm>
+				<PstlAdr>
+					<AdrTp>ADDR</AdrTp>
+					<StrtNm>MAIN STREET</StrtNm>
+					<BldgNb>35</BldgNb>
+					<PstCd>CA 94116</PstCd>
+					<TwnNm>SAN FRANCISCO</TwnNm>
+					<Ctry>US</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>UTECUSSF</AnyBIC>
+					</OrgId>
+				</Id>
+				<CtctDtls>
+					<Nm>Daniel Desotto</Nm>
+					<PhneNb>+1-(877)4447983</PhneNb>
+					<EmailAdr>ddesotto@att.com</EmailAdr>
+				</CtctDtls>
+			</Oblgr>
+			<Issr>
+				<Nm>BANK OF AMERICA N.A.</Nm>
+			</Issr>
+			<Bnfcry>
+				<Nm>HONG KONG TECHNOLOGY IMPORTS, LTD</Nm>
+				<PstlAdr>
+					<AdrTp>PBOX</AdrTp>
+					<Ctry>HK</Ctry>
+					<AdrLine>GPO BOX 444</AdrLine>
+				</PstlAdr>
+			</Bnfcry>
+			<AdvsgPty>
+				<Nm>BANK OF AMERICA HONG KONG</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BOFAHKHXXXX</AnyBIC>
+					</OrgId>
+				</Id>
+			</AdvsgPty>
+			<CntrUdrtkgInd>false</CntrUdrtkgInd>
+			<UdrtkgAmt>
+				<Amt Ccy="USD">3500000.00</Amt>
+				<AddtlInf>THREE MILLION FIVE HUNDRED THOUSAND U.S. DOLLARS</AddtlInf>
+			</UdrtkgAmt>
+			<XpryDtls>
+				<XpryTerms>
+					<DtTm>
+						<Dt>2014-02-03</Dt>
+					</DtTm>
+					<AutoXtnsn>
+						<Prd>
+							<Yrs>1</Yrs>
+						</Prd>
+						<NonXtnsnNtfctn>
+							<NtfctnPrd>60</NtfctnPrd>
+							<NtfctnMtd>
+								<Cd>COUR</Cd>
+							</NtfctnMtd>
+							<NtfctnRcptTp>
+								<Cd>BENE</Cd>
+							</NtfctnRcptTp>
+						</NonXtnsnNtfctn>	
+						<NonXtnsnNtfctn>
+							<NtfctnPrd>60</NtfctnPrd>
+							<NtfctnMtd>
+								<Cd>REGM</Cd>
+							</NtfctnMtd>
+							<NtfctnRcptTp>
+								<Cd>BENE</Cd>
+							</NtfctnRcptTp>
+						</NonXtnsnNtfctn>		
+					</AutoXtnsn>
+				</XpryTerms>
+			</XpryDtls>
+			<GovncRulesAndLaw>
+				<RuleId>
+					<Cd>ISPR</Cd>
+				</RuleId>
+			</GovncRulesAndLaw>
+			<UndrlygTx>
+				<Tp>
+					<Cd>CONT</Cd>
+				</Tp>
+				<Id>KFX-KAF-02005</Id>
+			</UndrlygTx>
+			<PresntnDtls>
+				<Mdm>
+					<Cd>PAPR</Cd>
+				</Mdm>
+				<Doc>
+					<Tp>
+						<Cd>STMT</Cd>
+					</Tp>
+				</Doc>
+			</PresntnDtls>
+			<UdrtkgWrdg>
+				<MdlForm>
+					<Id>
+						<Cd>ISP1</Cd>
+					</Id>
+				</MdlForm>
+			</UdrtkgWrdg>
+			<PrtlDmndInd>true</PrtlDmndInd>
+			<TrfInd>true</TrfInd>
+			<DlvryChanl>
+				<Mtd>TELE</Mtd>
+				<DlvrToPtyTp>
+					<Cd>BENE</Cd>
+				</DlvrToPtyTp>
+			</DlvryChanl>
+		</UdrtkgApplDtls>
+	</UdrtkgAppl>
+</Document>

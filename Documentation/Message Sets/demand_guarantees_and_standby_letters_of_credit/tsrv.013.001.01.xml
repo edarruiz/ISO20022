@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.013.001.01 tsrv.013.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.013.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgDmnd>
+		<UdrtkgDmndDtls>
+			<Id>BOAHK98765</Id>
+			<Tp>PAEX</Tp>
+			<UdrtkgId>
+				<Id>BN346678009381</Id>
+				<Issr>
+					<Nm>BANK OF AMERICA N.A.</Nm>
+					<Id>
+						<OrgId>
+							<AnyBIC>BOFAUS6SGCI</AnyBIC>
+						</OrgId>
+					</Id>
+				</Issr>
+				<BnfcryRefNb>HKTIL1234567</BnfcryRefNb>
+			</UdrtkgId>
+			<DmndAmt>
+				<Amt Ccy="USD">100000</Amt>
+			</DmndAmt>
+			<AdvsgPtyRefNb>BOAHK98765</AdvsgPtyRefNb>
+			<SttlmAcct>
+				<Id>
+					<Othr>
+						<Id>014-88110233499</Id>
+					</Othr>
+				</Id>
+				<Tp>
+					<Cd>CACC</Cd>
+				</Tp>
+				<Svcr>
+					<FinInstnId>
+						<BICFI>BKCHHKHH</BICFI>
+					</FinInstnId>
+				</Svcr>
+			</SttlmAcct>
+			<PresntnDtls>
+				<Presntr>
+					<Nm>HONG KONG TECHNOLOGY IMPORTS, LTD</Nm>
+					<PstlAdr>
+						<AdrTp>PBOX</AdrTp>
+						<Ctry>HK</Ctry>
+						<AdrLine>GPO BOX 444</AdrLine>
+					</PstlAdr>
+				</Presntr>
+				<BnfcryPresntnDt>2013-08-13</BnfcryPresntnDt>
+			</PresntnDtls>
+			<ReqdXpryDt>2015-08-13</ReqdXpryDt>
+			<DmndDcmnttn>
+				<CmpltInd>false</CmpltInd>
+				<CmpltnInf>Copy of Beneficiary Statement</CmpltnInf>
+				<NclsdFile>
+					<Tp>
+						<Cd>BENS</Cd>
+					</Tp>
+					<Id>STMT0023</Id>
+					<Frmt>
+						<Cd>DPDF</Cd>
+					</Frmt>
+					<Nclsr>JVBERi0xLjUNJeLjz9MNCjM0IDAgb2JqDTw8L0xpbmVhcml6ZWQgMS9MIDk1OTQvTyAzNi9FIDQ0
+MDMvTiAxL1QgOTI5MC9IIFsgNDU1IDE0N10+Pg1lbmRvYmoNICAgICAgICAgICAgICAgICAgICAg
+aaaa
+bbbb
+cccc
+wZ8AJBj7QAQPUOLONiCLgYFxAAmm50CCkQEgwADXlARLDQplbmRzdHJlYW0NZW5kb2JqDXN0YXJ0
+eHJlZg0KMTE2DQolJUVPRg0K</Nclsr>
+				</NclsdFile>
+				<DmndNrrtv>a</DmndNrrtv>
+			</DmndDcmnttn>
+		</UdrtkgDmndDtls>
+	</UdrtkgDmnd>
+</Document>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:tsrv.001.001.01 tsrv.001.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:tsrv.001.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<UdrtkgIssnc>
+		<UdrtkgIssncDtls>
+			<Id>BN346678009381</Id>
+			<Nm>STBY</Nm>
+			<Tp>
+				<Cd>PAYM</Cd>
+			</Tp>
+			<IssncTp>ISAD</IssncTp>
+			<Applcnt>
+				<Nm>UNITED TECHNOLOGY EXPORTS, INC</Nm>
+				<PstlAdr>
+					<AdrTp>ADDR</AdrTp>
+					<StrtNm>MAIN STREET</StrtNm>
+					<BldgNb>35</BldgNb>
+					<PstCd>CA 94116</PstCd>
+					<TwnNm>SAN FRANCISCO</TwnNm>
+					<Ctry>US</Ctry>
+				</PstlAdr>
+				<Id>
+					<OrgId>
+						<AnyBIC>UTECUSSF</AnyBIC>
+					</OrgId>
+				</Id>
+			</Applcnt>
+			<Issr>
+				<Nm>BANK OF AMERICA N.A.</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BOFAUS6SGCI</AnyBIC>
+					</OrgId>
+				</Id>
+			</Issr>
+			<Bnfcry>
+				<Nm>HONG KONG TECHNOLOGY IMPORTS, LTD</Nm>
+				<PstlAdr>
+					<AdrTp>PBOX</AdrTp>
+					<Ctry>HK</Ctry>
+					<AdrLine>GPO BOX 444</AdrLine>
+				</PstlAdr>
+			</Bnfcry>
+			<DtOfIssnc>2013-02-10</DtOfIssnc>
+			<PlcOfIsse>
+				<TwnNm>LOS ANGELES</TwnNm>
+				<CtrySubDvsn>CA</CtrySubDvsn>
+				<Ctry>US</Ctry>
+			</PlcOfIsse>
+			<AdvsgPty>
+				<Nm>BANK OF AMERICA HONG KONG</Nm>
+				<Id>
+					<OrgId>
+						<AnyBIC>BOFAHKHXXXX</AnyBIC>
+					</OrgId>
+				</Id>
+			</AdvsgPty>
+			<UdrtkgAmt>
+				<Amt Ccy="USD">3500000.00</Amt>
+				<AddtlInf>THREE MILLION FIVE HUNDRED THOUSAND U.S. DOLLARS</AddtlInf>
+			</UdrtkgAmt>
+			<XpryDtls>
+				<XpryTerms>
+					<DtTm>
+						<Dt>2014-02-03</Dt>
+					</DtTm>
+					<AutoXtnsn>
+						<Prd>
+							<Yrs>1</Yrs>
+						</Prd>
+						<NonXtnsnNtfctn>
+							<NtfctnPrd>60</NtfctnPrd>
+							<NtfctnMtd>
+								<Cd>COUR</Cd>
+							</NtfctnMtd>
+							<NtfctnRcptTp>
+								<Cd>BENE</Cd>
+							</NtfctnRcptTp>
+						</NonXtnsnNtfctn>	
+						<NonXtnsnNtfctn>
+							<NtfctnPrd>60</NtfctnPrd>
+							<NtfctnMtd>
+								<Cd>REGM</Cd>
+							</NtfctnMtd>
+							<NtfctnRcptTp>
+								<Cd>BENE</Cd>
+							</NtfctnRcptTp>
+						</NonXtnsnNtfctn>		
+					</AutoXtnsn>
+				</XpryTerms>
+			</XpryDtls>
+			<GovncRulesAndLaw>
+				<RuleId>
+					<Cd>ISPR</Cd>
+				</RuleId>
+			</GovncRulesAndLaw>
+			<UndrlygTx>
+				<Tp>
+					<Cd>CONT</Cd>
+				</Tp>
+				<Id>KFX-KAF-02005</Id>
+			</UndrlygTx>
+			<PresntnDtls>
+				<Mdm>
+					<Cd>PAPR</Cd>
+				</Mdm>
+				<PlcOfPresntnOrUdrConfChc>
+					<PlcOfPresntn>
+						<Plc>ISSU</Plc>
+					</PlcOfPresntn>
+				</PlcOfPresntnOrUdrConfChc>
+				<Doc>
+					<Tp>
+						<Cd>STMT</Cd>
+					</Tp>
+					<Wrdg>BENEFICIARY SIGNED STATEMENT CERTIFYING THAT (APPLICANT NAME) HAS FAILED TO COMPLY WITH THE TERMS AND CONDITIONS OF CONTRACT NO. KFX-KAF-02005.</Wrdg>
+				</Doc>
+				<AddtlInf>ACCOMPANIED BY DRAFT AT SIGHT DRAWN ON BANK OF AMERICA, LOS ANGELES CALIFORNIA, BEARING THE CLAUSE: “DRAWN UNDER STANDBY LETTER OF CREDIT NUMBER BN346678009381-1 OF BANK OF AMERICA, LOS ANGELES, CA”.</AddtlInf>
+			</PresntnDtls>
+			<UdrtkgTermsAndConds>
+				<Tp>
+					<Cd>DRAW</Cd>
+				</Tp>
+				<Txt>BENEFICIARY MAY DURING THE LAST FIFTEEN (15) DAYS OF THE THEN CURRENT VALIDITY PERIOD DRAW HEREUNDER BY MEANS OF THEIR SIGHT DRAFTS ON OURSELVES FOR AN AMOUNT UP TO THE AVAILABLE BALANCE ACCOMPANIED BY THEIR SIGNED STATEMENT STATING THAT THEY HAVE RECEIVED NOTICE FROM BANK OF AMERICA, LOS ANGELES, CA THAT BANK ELECTED NOT TO CONSIDER THE EXPIRY DATE OF STANDBY LETTER OF CREDIT NUMBER BN346678009381-1 EXTENDED.</Txt>
+			</UdrtkgTermsAndConds>
+			<UdrtkgTermsAndConds>
+				<Tp>
+					<Cd>TEFF</Cd>
+				</Tp>
+				<Txt>WE HEREBY ENGAGE WITH YOU THAT DRAFTS DRAWN AND PRESENTED IN THE CONFORMITY WITH THE TERMS OF THIS CREDIT WILL BE DULY HONORED ON PRESENTATION.</Txt>
+			</UdrtkgTermsAndConds>
+			<PrtlDmndInd>true</PrtlDmndInd>
+		</UdrtkgIssncDtls>
+	</UdrtkgIssnc>
+</Document>
